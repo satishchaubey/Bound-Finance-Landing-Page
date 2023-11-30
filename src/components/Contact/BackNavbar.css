@@ -1,0 +1,53 @@
+.bg-footer{
+  background-image: url('../../img/semi\ circle.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.contact {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 30vh;
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 1px solid white;
+  border-radius: 20px;
+}
+.socialTwo-footer {
+  height: 5vh;
+  margin-top: 0.8rem;
+  text-align: center;
+}
+.connect-with {
+  color: #ececfb;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 92.308% */
+  letter-spacing: -0.052px;
+}
+.img-footer-logo {
+  height: 20vh;
+  object-fit: cover;
+}
+.img-cover {
+  height: 20vh;
+}
+.straight-line-footer {
+}
+.straight-line-footer {
+  border: 1px solid #35beff;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 95%;
+  margin-left: 1.5rem;
+}
+.copy-right {
+  color: #ececfb;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 110% */
+  /* margin-bottom: 1rem; */
+}
