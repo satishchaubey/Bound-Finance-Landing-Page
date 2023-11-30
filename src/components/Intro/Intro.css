@@ -1,0 +1,258 @@
+.Intro {
+  /* display: flex;
+  height: 77vh;
+  margin-top: 6rem; */
+}
+.section-image {
+}
+
+/* left side styling */
+.i-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+}
+.i-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.i-name > :nth-child(1) {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(2) {
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(3) {
+  font-weight: 100;
+  font-size: 14px;
+  color: var(--gray);
+  margin-top: 10px;
+}
+.i-button {
+  width: 6rem;
+  height: 2rem;
+}
+.i-icons {
+  margin-top: 3rem;
+  display: flex;
+  gap: 0rem;
+}
+.i-icons > * {
+  transform: scale(0.5);
+}
+.i-icons > *:hover {
+  cursor: pointer;
+}
+/* right side styling */
+.i-right {
+  flex: 1;
+  position: relative;
+}
+.i-right > * {
+  position: absolute;
+  z-index: 1;
+}
+.i-right > :nth-child(1) {
+  transform: scale(0.69);
+  left: -15%;
+  top: -9%;
+}
+.i-right > :nth-child(2) {
+  top: -4.6rem;
+  transform: scale(0.67);
+  left: -3rem;
+}
+.i-right > :nth-child(3) {
+  transform: scale(1.4);
+  left: 28%;
+}
+.i-right > :nth-child(4) {
+  transform: scale(0.62);
+  top: -19%;
+  left: -24%;
+  border-radius: 50%;
+  padding: 0;
+}
+
+/* blur */
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  filter: blur(212px);
+  z-index: -9;
+  top: -18%;
+  left: 56%;
+  filter: blur(72px);
+}
+
+@media screen and (max-width: 480px) {
+  .Intro {
+    flex-direction: column;
+    gap: 7rem;
+    height: 64rem;
+  }
+
+  .i-right {
+    transform: scale(0.8);
+    left: -3rem;
+  }
+  .i-right .blur {
+    display: none;
+  }
+  .floating-div:nth-of-type(1) {
+    /* display: none; */
+    top: -7rem !important;
+  }
+}
+.mobile{
+  object-fit: cover;
+  height: 95vh;
+  position: absolute;
+  top: 28rem;
+  left: 30rem;
+  /* z-index: 1; */
+}
+.mobile-card{
+  position: absolute;
+  top: 34.5rem;
+  left: 31.5rem;
+  height: 24vh;
+}
+
+.home-section {
+  background-image: url("../../img/section1bg.png");
+  object-fit: cover !important;
+  height: 160vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.bound-image {
+  position: relative;
+}
+.bound-image-position {
+  position: absolute;
+  top: 6rem;
+  left: 10%;
+  object-fit: contain;
+  /* width: 100%; */
+}
+.content-card {
+  font-size: 89px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  position: absolute;
+  word-spacing: 4px;
+  top: 9.6rem;
+  left: 14%;
+  color: #ececfb;
+}
+.straight-line {
+  border: 0.1px solid #35beff;
+  width: 95%;
+  position: absolute;
+  left: 2%;
+}
+.small-content {
+  color: #ececfb;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  position: absolute;
+  top: 5.9rem;
+  left: 11%;
+}
+.percentage {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.cashback-font {
+  background: linear-gradient(
+    270deg,
+    #35beff -2.36%,
+    #35bdfe 13.59%,
+    #34bcfc 30.91%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.other-content {
+  color: #ececfb;
+  text-align: center;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  position: absolute;
+  top: 9rem;
+  left: 14%;
+}
+.introduction-first {
+  font-size: 24.5px;
+}
+
+.introduction-first-line {
+  font-size: 24.5px;
+}
+.btn-coming {
+  position: absolute;
+  top: 13.5rem;
+  left: 42%;
+}
+.coming {
+  border-radius: 31.305px;
+  background: #ececfb;
+  border: none;
+  width: 200px;
+  height: 50px;
+}
+
+.motion-top {
+  color: #ececfb;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.04px;
+  text-transform: uppercase;
+}
+.motion-middle{
+  color: #b7b7b7;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+.motion-bottom {
+  color: #35BEFF;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+}

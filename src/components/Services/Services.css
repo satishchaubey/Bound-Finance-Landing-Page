@@ -1,0 +1,106 @@
+.services {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  /* height: 50rem; */
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  /* margin-bottom: 18rem; */
+  /* padding-top: 3rem; */
+  background-image: url("../../img/c.png");
+  object-fit: cover !important;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.mission-margin{
+  margin-top: 5rem !important;
+}
+.straight{
+  border: 1px solid #35BEFF;
+  width: 14%;
+}
+.content-mission {
+  color: #ececfb;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.all-content-mission {
+  color: #ececfb;
+  text-align: justify;
+  margin-top: 1.5rem;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+.mission-image{
+  object-fit: cover;
+  width: 100%;
+}
+/* left side */
+.awesome {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* gap: 20px; */
+}
+
+.awesome > :nth-child(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awesome > :nth-child(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awesome > :nth-child(3) {
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.s-button {
+  width: 8rem;
+  height: 2rem;
+  margin-top: 1rem;
+}
+/* right sided */
+.cards {
+  position: relative;
+}
+.cards > * {
+  position: absolute;
+}
+
+/* blur */
+.s-blur2 {
+  left: 14rem;
+  top: 8rem;
+}
+
+.s-blur1 {
+  top: 13rem;
+  left: -18rem;
+}
+
+@media screen and (max-width: 480px) {
+  .services {
+    margin-top: 0;
+    flex-direction: column;
+    gap: 5rem;
+    height: 66rem;
+    padding: 0;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 17rem;
+  }
+  .cards > * {
+    position: static;
+  }
+}
