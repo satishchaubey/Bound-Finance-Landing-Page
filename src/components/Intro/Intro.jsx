@@ -11,8 +11,8 @@ import CardMobile from "../../img/american express card.png";
 const Intro = () => {
   // Transition
   const transition = { duration: 2, type: "spring" };
- 
-  console.log(transition, "transition");
+
+  // console.log(transition, "transition");
 
   // context
   const theme = useContext(themeContext);
@@ -20,10 +20,17 @@ const Intro = () => {
 
   return (
     <>
-      <div className="col-md-12"  id="home">
+      <div className="col-md-12" id="home">
         <div className="home-section">
           <div className="bound-image">
-            <img src={Bound} alt="" className="bound-image-position" />
+            <motion.div
+              // src={Bound}
+              // alt=""
+              className="bound-image-position"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 0.6 }}
+              transition={{ duration: 5 }}
+            >BOUND FINANCE</motion.div>
           </div>
           <div className="bound-image">
             <div className="content-card">
@@ -44,12 +51,23 @@ const Intro = () => {
                 </div>
               </div>
               <div className="btn-coming">
-                <button className="coming">Coming Soon</button>
+                <motion.button
+                  className="coming"
+                  whileHover={{ scale: 1.2 }}
+                  onHoverStart={(e) => {}}
+                  onHoverEnd={(e) => {}}
+                  // whileFocus={{ scale: 1.2 }}
+                  drag="x"
+                  dragConstraints={{ left: 10, right: 30 }}
+                  dragTransition={{ bounceStiffness: 600, bounceDamping: 10 }}
+                >
+                  Coming Soon
+                </motion.button>
               </div>
             </div>
             <div></div>
           </div>
-          <div className="">
+          <div className="d-none d-md-block">
             <CardSmall />
           </div>
           <div className="position-relative">

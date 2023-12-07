@@ -7,14 +7,16 @@ import Works from "./components/Works/Works";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Testimonial from "./components/Testimonials/Testimonial";
 import BackNavbar from "./components/Contact/BackNavbar";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/Second-Section";
 import { useContext } from "react";
 import { themeContext } from "./Context";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import SecondSection from "./components/Footer/Second-Section";
+import { motion, useScroll } from "framer-motion";
 
 
 function App() {
+  const { scrollYProgress } = useScroll();
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
@@ -28,12 +30,15 @@ function App() {
       <Navbar />
       <Intro />
       <Services />
+      
+    
       <Experience />
+      <SecondSection />
+      
       <Works />
       <Portfolio />
       <Testimonial />
       <BackNavbar />
-      {/* <Footer /> */}
     </div>
   );
 }

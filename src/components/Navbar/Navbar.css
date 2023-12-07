@@ -6,7 +6,10 @@
   top: 0;
   border-bottom: 1.047px solid #35BEFF;
   margin-top: 0.3rem;
+   animation: slideIn 5s ease-in-out;
+  
 }
+
 .n-name{
   margin-left: 1.5rem;
   
@@ -77,5 +80,21 @@
 @media screen and (max-width: 480px) {
   .n-list {
     display: none;
+  }
+  .n-wrapper{
+    will-change: transform;
+    
+  }
+}
+
+
+@keyframes slideIn {
+  from {
+    border-bottom: 2px solid transparent; /* Set the initial color */
+    transform: scaleY(0.9); /* Start with no width */
+  }
+  to {
+    border-bottom: 2px solid #35BEFF;
+    transform: scaleY(1); /* Expand to full width */
   }
 }
