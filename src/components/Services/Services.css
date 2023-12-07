@@ -11,11 +11,11 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.mission-margin{
+.mission-margin {
   margin-top: 5rem !important;
 }
-.straight{
-  border: 1px solid #35BEFF;
+.straight {
+  border: 1px solid #35beff;
   width: 14%;
 }
 .content-mission {
@@ -35,7 +35,7 @@
   font-weight: 200;
   line-height: normal;
 }
-.mission-image{
+.mission-image {
   object-fit: cover;
   width: 100%;
 }
@@ -103,4 +103,72 @@
   .cards > * {
     position: static;
   }
+}
+
+.inner-card-intro {
+  position: absolute;
+  top: -9.5rem;
+  right: 0rem;
+  width: 300.878px;
+  /* height: 179px; */
+  border-radius: 10px;
+  border: 1px solid #35beff;
+  background: linear-gradient( 104deg, rgba(3, 22, 48, 0.51) 0%, rgba(35, 55, 81, 0.03) 105.15% );
+  /* Apply backdrop filter for blurring */
+  backdrop-filter: blur(25px); /* Adjust the blur value as needed */
+  padding: 0.6rem;
+}
+.card-items {
+  display: flex;
+  justify-content: space-between;
+  color: #ececfb;
+  text-align: justify;
+  font-size: 15.061px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.602px;
+}
+.header-card {
+  color: #ececfb;
+  text-align: justify;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+.date-card {
+  color: #ececfb;
+  text-align: justify;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+.straight-line-card {
+  border: 1px solid #ececfb;
+  margin-bottom: 0.7rem;
+  margin-top: 0.7rem;
+}
+.small-content-card {
+  color: #dadada;
+  text-align: justify;
+  font-size: 10.041px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.402px;
+}
+.small-content-card-color {
+  color: #00f4a3;
+  text-align: right;
+  font-size: 10.041px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.402px;
 }

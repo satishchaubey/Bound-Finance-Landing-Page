@@ -114,7 +114,7 @@
     top: -7rem !important;
   }
 }
-.mobile{
+.mobile {
   object-fit: cover;
   height: 95vh;
   position: absolute;
@@ -122,7 +122,7 @@
   left: 30rem;
   /* z-index: 1; */
 }
-.mobile-card{
+.mobile-card {
   position: absolute;
   top: 34.5rem;
   left: 31.5rem;
@@ -139,13 +139,37 @@
 .bound-image {
   position: relative;
 }
+/* .bound-image-position {
+  position: absolute;
+  top: 4rem;
+  left: 1%;
+  font-family:sans-serif !important;
+  font-size: 8rem;
+  text-transform: capitalize;
+  color:#35beff;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+/* -webkit-text-stroke: 3px #35beff; */
+
+/* } */
 .bound-image-position {
   position: absolute;
-  top: 6rem;
+  top: 5rem;
   left: 10%;
-  object-fit: contain;
-  /* width: 100%; */
+  font-family: sans-serif !important;
+  font-size: 7.5rem;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* -webkit-text-stroke: 0.8px  linear-gradient(180deg,  #35BEFF -350%,transparent); */
+  background-image: linear-gradient(
+    180deg,
+    #35beff -450%,
+    transparent
+  ); /* Replace with your desired gradient colors */
+  -webkit-background-clip: text;
+  opacity: 0.5;
 }
+
 .content-card {
   font-size: 89px;
   font-style: normal;
@@ -157,6 +181,7 @@
   top: 9.6rem;
   left: 14%;
   color: #ececfb;
+  /* z-index: -1; */
 }
 .straight-line {
   border: 0.1px solid #35beff;
@@ -239,7 +264,7 @@
   letter-spacing: 1.04px;
   text-transform: uppercase;
 }
-.motion-middle{
+.motion-middle {
   color: #b7b7b7;
   font-size: 20px;
   font-style: normal;
@@ -248,11 +273,85 @@
   letter-spacing: 0.8px;
 }
 .motion-bottom {
-  color: #35BEFF;
+  color: #35beff;
   font-size: 90px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 3.6px;
   text-transform: uppercase;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 767px) {
+  .bound-image-position {
+    font-size: 2rem;
+    left: 6%;
+  }
+  .content-card {
+    font-size: 1.2rem;
+    top: 6.5rem;
+    left: 9%;
+  }
+  .small-content {
+    font-size: 16px;
+    top: 2rem;
+    left: 6%;
+  }
+  .cashback-font {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .percentage {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  .other-content {
+    font-size: 10px;
+    top: 5rem;
+    left: 0%;
+  }
+  .btn-coming {
+    top: 11.5rem;
+    left: 19%;
+  }
+  .mobile {
+    height: 70vh;
+    left: 14%;
+    top: 23rem;
+  }
+
+  .introduction-first,
+  .introduction-first-line {
+    font-size: 17px;
+  }
+  .mobile-card {
+    left: 21%;
+    height: 17.5vh;
+    top: 28.5rem;
+  }
+  .home-section {
+    height: 114vh;
+  }
+  .services {
+    padding: 1rem !important;
+  }
+  .all-content-mission{
+    font-size: 17px !important;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Your styles for tablets go here */
+}
+
+/* Laptops and larger screens */
+@media only screen and (min-width: 992px) {
+  /* Your styles for laptops and larger screens go here */
 }

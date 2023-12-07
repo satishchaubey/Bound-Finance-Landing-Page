@@ -44,7 +44,31 @@ const Services = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <img src={rightPic} alt="" className="mission-image"/>
+            <img src={rightPic} alt="" className="mission-image" />
+            <div className="position-relative">
+              <div className="inner-card-intro">
+                <div className="header-card">CASH BACK RECIEVED</div>
+                <div className="date-card">JUNE 15,2020</div>
+                <div className="straight-line-card"></div>
+                <div className="card-items">
+                  <div>Webflow</div>
+                  <div>-$45</div>
+                  
+                </div>
+                <div className="card-items">
+                  <div className="small-content-card">Outcoming Transfer</div>
+                  <div className="small-content-card-color">+$5.40</div>
+                </div>
+                <div className="card-items mt-3">
+                  <div>Sketch</div>
+                  <div>-$79</div>
+                </div>
+                <div className="card-items">
+                  <div className="small-content-card">Annual withdrawal of funds</div>
+                  <div className="small-content-card-color">+$9.48</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
