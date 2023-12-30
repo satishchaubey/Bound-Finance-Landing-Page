@@ -91,7 +91,7 @@
     margin-top: 0;
     flex-direction: column;
     gap: 5rem;
-    height: 66rem;
+    height: 45rem;
     padding: 0;
   }
 
@@ -171,4 +171,11 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.402px;
+}
+@media only screen and (max-width: 767px) {
+  .inner-card-intro {
+    position: absolute;
+    top: -2.5rem;
+    right: 1rem;
+  }
 }
