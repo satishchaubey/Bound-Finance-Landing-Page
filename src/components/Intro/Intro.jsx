@@ -12,9 +12,6 @@ const Intro = () => {
   // Transition
   const transition = { duration: 2, type: "spring" };
 
-  // console.log(transition, "transition");
-
-  // context
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 

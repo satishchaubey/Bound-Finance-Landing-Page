@@ -283,7 +283,7 @@
 }
 
 /* Mobile devices */
-@media only screen and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 400px){
   .bound-image-position {
     font-size: 2rem;
     left: 6%;
@@ -322,19 +322,19 @@
   }
   .mobile {
     height: 70vh;
-    left: 14%;
+    left: 20%;
     top: 23rem;
   }
-
+  .mobile-card {
+    left: 26%;
+    height: 17.5vh;
+    top: 27.5rem;
+  }
   .introduction-first,
   .introduction-first-line {
     font-size: 17px;
   }
-  .mobile-card {
-    left: 20%;
-    height: 17.5vh;
-    top: 27.5rem;
-  }
+ 
   .home-section {
     height: 134vh;
   }
@@ -344,6 +344,7 @@
   .all-content-mission{
     font-size: 17px !important;
   }
+ 
 }
 
 /* Tablets */

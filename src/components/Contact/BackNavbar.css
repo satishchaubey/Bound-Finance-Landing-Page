@@ -1,5 +1,5 @@
-.bg-footer{
-  background-image: url('../../img/semi\ circle.png');
+.bg-footer {
+  background-image: url("../../img/semi\ circle.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -17,6 +17,12 @@
   height: 5vh;
   margin-top: 0.8rem;
   text-align: center;
+}
+.socialTwo-footer-two {
+  height: 5vh;
+  margin-top: 0.8rem;
+  text-align: center;
+  margin-left: 1rem;
 }
 .connect-with {
   color: #ececfb;
@@ -50,4 +56,26 @@
   font-weight: 400;
   line-height: 22px; /* 110% */
   /* margin-bottom: 1rem; */
+}
+
+@media (min-width: 0px) and (max-width: 400px) {
+  .contact {
+    padding: 3rem 0rem 0 2rem;
+  }
+  .img-footer-logo {
+    height: 10vh;
+  }
+  .connect-with {
+    font-size: 15px;
+    margin-left: 3rem;
+  }
+  .socialTwo-footer {
+    margin-left: 3rem;
+  }
+  /* .socialTwo-footer-two {
+    margin-left: 5rem;
+  } */
+  .copy-right {
+    font-size: 13px;
+  }
 }

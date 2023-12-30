@@ -34,7 +34,7 @@ const CryptoSection = () => {
         <div className="col-md-6">
           <div>
             <div className="one-number">
-              <img src={One} alt="" />
+              <img src={One} alt=""  className="oneImg"/>
             </div>
           </div>
           <div className="outer">
@@ -54,7 +54,7 @@ const CryptoSection = () => {
         <div className="col-md-6">
           <div className="all">
             <div className="one">
-              <img src={Two} alt="" />
+              <img src={Two} alt="" className="twoImg"/>
             </div>
 
             <div className="outer">
@@ -71,24 +71,24 @@ const CryptoSection = () => {
         </div>
         <div className="col-md-6">
           <div>
-            <img src={SecondImg} alt="" className="firstImg" />
+            <img src={SecondImg} alt="" className="secondImg" />
           </div>
         </div>
       </div>
       <div className="row">
         <div className="col-md-6">
           <div>
-            <img src={ThirdImg} alt="" className="firstImg" />
+            <img src={ThirdImg} alt="" className="third-Img" />
           </div>
         </div>
         <div className="col-md-6">
           <div>
             <div className="one">
-              <img src={Three} alt="" />
+              <img src={Three} alt="" className="thirdImg"/>
             </div>
           </div>
           <div className="outer">
-            <div className="inner-one">
+            <div className="inner-two">
               <div className="mint-section">Earn BCKGov emission</div>
               <div className="straight-line"></div>
               <div className="content-section">

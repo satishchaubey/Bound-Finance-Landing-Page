@@ -70,11 +70,13 @@ const BackNavbar = () => {
           <div className="">
             <div className="connect-with">Connect with us</div>
             <img src={SocialTwo} alt="" className="socialTwo-footer" />
-            <img src={Social} alt="" className="socialTwo-footer ms-3" />
+            <img src={Social} alt="" className="socialTwo-footer-two" />
           </div>
         </div>
         <div className="straight-line-footer"></div>
-        <div className="copy-right">© Copyright 2023, All Rights Reserved by Bound Finance</div>
+        <div className="copy-right">
+          © Copyright 2023, All Rights Reserved by Bound Finance
+        </div>
       </div>
     </>
   );

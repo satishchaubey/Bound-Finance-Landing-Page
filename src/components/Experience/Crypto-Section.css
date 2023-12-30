@@ -10,7 +10,6 @@
   background-color: #0f0f0f;
 }
 
-
 .vertical-slider {
   transform: rotate(270deg);
   transform-origin: left bottom; /* Adjust origin for proper positioning */
@@ -52,24 +51,24 @@
   position: relative;
   top: 9.5rem;
 }
-.one-section{
+.one-section {
   position: relative;
   top: 5.5rem;
 }
-.one-section-two{
+.one-section-two {
   position: relative;
   top: 9rem;
 }
-.one-section-three{
+.one-section-three {
   position: relative;
   top: 10rem;
   left: 4.2rem;
 }
-.one{
+.one {
   position: relative;
   top: 9.8rem;
 }
-.all{
+.all {
   margin-left: 3rem;
 }
 .straight-line {
@@ -97,7 +96,7 @@
   backdrop-filter: blur(9.86301326751709px);
   padding: 1rem;
 }
-.inner-one{
+.inner-one {
   position: absolute;
   width: 60%;
   left: 4.5rem;
@@ -112,7 +111,37 @@
   backdrop-filter: blur(9.86301326751709px);
   padding: 1rem;
 }
-.inner-section{
+.inner-second-component {
+  position: absolute;
+  width: 60%;
+  left: 4.5rem;
+  bottom: -190px;
+  border-radius: 12px;
+  border: 1.233px solid #fff;
+  background: linear-gradient(
+    104deg,
+    rgba(3, 22, 48, 0.51) 0%,
+    rgba(35, 55, 81, 0.03) 105.15%
+  );
+  backdrop-filter: blur(9.86301326751709px);
+  padding: 1rem;
+}
+.inner-two {
+  position: absolute;
+  width: 60%;
+  left: 4.5rem;
+  bottom: -190px;
+  border-radius: 12px;
+  border: 1.233px solid #fff;
+  background: linear-gradient(
+    104deg,
+    rgba(3, 22, 48, 0.51) 0%,
+    rgba(35, 55, 81, 0.03) 105.15%
+  );
+  backdrop-filter: blur(9.86301326751709px);
+  padding: 1rem;
+}
+.inner-section {
   position: absolute;
   width: 60%;
   left: 9rem;
@@ -127,7 +156,7 @@
   backdrop-filter: blur(9.86301326751709px);
   padding: 1rem;
 }
-.inner-section-two{
+.inner-section-two {
   position: absolute;
   width: 60%;
   left: 9rem;
@@ -161,9 +190,142 @@
   font-weight: 100;
   line-height: normal;
 }
+.margin-for-crypto {
+  /* margin-left: 6rem; */
+  display: flex;
+  justify-content: center;
+}
 
-@media screen and (max-width: 480px) {
+@media (min-width: 0px) and (max-width: 400px) {
   .experience {
-    transform: scale(0.7);
+    /* transform: scale(0.7); */
+    height: 73rem;
   }
+  .how-works {
+    font-size: 21px;
+  }
+  .question-mark {
+    font-size: 23px;
+  }
+  .crypto {
+    font-size: 20px;
+  }
+  .firstImg {
+    width: 100%;
+  }
+  .inner {
+    width: 70%;
+    left: 4rem;
+    bottom: -35px;
+  }
+  .mint-section {
+    font-size: 15px;
+  }
+  .content-section {
+    font-size: 13px;
+  }
+  .oneImg {
+    height: 20vh;
+  }
+  .one-number {
+    top: 1rem;
+    left: 1rem;
+  }
+  .all {
+    margin-left: 0rem;
+  }
+  .secondImg {
+    width: 100%;
+    position: absolute;
+    top: 137rem;
+  }
+  .inner-one {
+    width: 70%;
+    left: 4rem;
+    bottom: -22rem;
+  }
+  .twoImg {
+    height: 20vh;
+    position: absolute;
+    left: 1rem;
+    bottom: -12rem;
+  }
+  .thirdImg {
+    height: 20vh;
+    position: absolute;
+    bottom: -33rem;
+    left: 1rem;
+  }
+  .third-Img {
+    width: 100%;
+    position: absolute;
+    top: 156rem;
+  }
+  .inner-two {
+    width: 70%;
+    left: 4.5rem;
+    bottom: -42.5rem;
+  }
+  .one-section {
+    margin-left: 0px !important;
+    position: relative;
+  }
+  .first-Img {
+    width: 72%;
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    height: 30vh;
+  }
+  .inner-section {
+    bottom: -22.5rem;
+    left: 4rem;
+    width: 70%;
+  }
+  .second-Img {
+    width: 100%;
+    position: absolute;
+    bottom: -39rem;
+  }
+  .img-One {
+    position: absolute;
+    left: 1rem;
+    height: 20vh;
+    bottom: -16rem;
+  }
+  .img-second {
+    position: absolute;
+    top: 31rem;
+    height: 20vh;
+    left: 1rem;
+  }
+  .img-third {
+    position: absolute;
+    top: 51rem;
+    height: 20vh;
+    left: -3rem;
+  }
+  .Img-third {
+    position: absolute;
+    width: 100%;
+    top: 230rem;
+  }
+  .inner-section-two {
+    position: absolute;
+    top: 60rem;
+    height: 25vh;
+    left: 5rem;
+    width: 68%;
+  }
+  .inner-second-component {
+    position: absolute;
+    top: 39rem;
+    height: 25vh;
+    left: 5rem;
+    width: 65%;
+  }
+  /* .Img-third{
+    position: absolute;
+    top: 29rem;
+  } */
 }

@@ -23,7 +23,7 @@ const Services = () => {
           <div className="col-md-6 mission-margin">
             <div className="straight"></div>
             <div className="content-mission">Our Mission</div>
-            <div className="all-content-mission">
+            <div className="all-content-mission for-font">
               Bound Finance transforms your standard Visa, Mastercard, or Amex
               into high-yield cashback cards, offering a standout 12% return on
               purchases. Achieved via the Plaid API, our unique LSDFi Cashback
@@ -31,12 +31,12 @@ const Services = () => {
               cashback users. We leverage ETH collateral from loans to gain
               validator rewards, funding exceptional cashback rates without
               necessitating hefty crypto stakes or plan subscriptions.
-              <div className="mt-4">
+              <div className="mt-4 for-font">
                 We democratize crypto benefits, remove all barriers to entry,
                 and offer a welcoming entry into cryptocurrency for the
                 volatility-wary, and ensuring unmatched cashback returns.
               </div>
-              <div className="mt-4">
+              <div className="mt-4 for-font">
                 Ultimately, Bound Finance is more than a spending platform;
                 we're a financial revolution, fostering crypto accessibility,
                 reward, and mainstream adoption.

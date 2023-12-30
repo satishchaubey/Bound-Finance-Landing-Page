@@ -87,3 +87,11 @@
   margin: 0.4rem 0rem 0.4rem 0rem ;
 }
 
+@media screen and (max-width: 480px) {
+  .portfolio {
+    height: 77rem;
+  }
+  .t-wrapper {
+    padding: 0rem;
+  }
+}

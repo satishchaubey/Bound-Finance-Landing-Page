@@ -19,13 +19,13 @@ const SecondSection = () => {
 
   return (
     <div className="experience" id="crypto-sections">
-      <div className="crypto" style={{ marginLeft: "6rem" }}>
+      <div className="crypto margin-for-crypto">
         Cash back Section
       </div>
       <div className="row">
         <div className="col-md-6">
           <div className="one-section" style={{ marginLeft: "5rem" }}>
-            <img src={One} alt="" />
+            <img src={One} alt="" className="img-One"/>
           </div>
           <div className="outer">
             <div className="inner-section">
@@ -40,25 +40,25 @@ const SecondSection = () => {
           </div>
         </div>
         <div className="col-md-6">
-          <div>
-            <img src={FirstImg} alt="" className="firstImg" />
+          <div className="position-relative">
+            <img src={FirstImg} alt="" className="first-Img" />
           </div>
         </div>
       </div>
       <div className="row">
         <div className="col-md-6">
-          <div>
-            <img src={SecondImg} alt="" className="firstImg" />
+        <div className="position-relative">
+            <img src={SecondImg} alt="" className="second-Img" />
           </div>
         </div>
         <div className="col-md-6">
           <div className="all">
             <div className="one-section-two">
-              <img src={Two} alt="" />
+              <img src={Two} alt="" className="img-second"/>
             </div>
 
             <div className="outer">
-              <div className="inner-one">
+              <div className="inner-second-component">
                 <div className="mint-section">Mint & borrow $BCK</div>
                 <div className="straight-line"></div>
                 <div className="content-section">
@@ -75,7 +75,7 @@ const SecondSection = () => {
       <div className="row">
         <div className="col-md-6">
           <div className="one-section-three" style={{ marginLeft: "0rem" }}>
-            <img src={Three} alt="" />
+            <img src={Three} alt="" className="img-third" />
           </div>
           <div className="outer">
             <div className="inner-section-two">
@@ -93,7 +93,7 @@ const SecondSection = () => {
           <img
             src={ThirdImg}
             alt=""
-            className="firstImg "
+            className="Img-third "
             style={{ marginBottom: "3rem" }}
           />
         </div>
