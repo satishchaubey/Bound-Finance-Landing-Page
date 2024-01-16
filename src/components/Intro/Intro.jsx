@@ -34,7 +34,7 @@ const Intro = () => {
               Revolutionise Your Card
               <div className="straight-line"></div>
               <div className="small-content">
-                ALL TRANSACTIONS AMPLIFIED WITH{" "}
+                ALL TRANSACTIONS AMPLIFIED WITH
                 <span className="cashback-font">
                   <span className="percentage">12 %</span> CASHBACK
                 </span>

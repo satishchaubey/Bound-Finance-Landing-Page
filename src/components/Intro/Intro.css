@@ -154,7 +154,7 @@
 .bound-image-position {
   position: absolute;
   top: 5rem;
-  left: 10%;
+  left: 6%;
   font-family: sans-serif !important;
   font-size: 7.5rem;
   color: transparent;
@@ -179,7 +179,7 @@
   position: absolute;
   word-spacing: 4px;
   top: 9.6rem;
-  left: 14%;
+  left: 9%;
   color: #ececfb;
   /* z-index: -1; */
 }
